@@ -1,0 +1,144 @@
+
+.Timers {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 900px) {
+  .Timers {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 900px) {
+  .Stopwatch {
+    margin-bottom: 40px;
+  }
+}
+.Countdown,
+.Stopwatch {
+  /*border: 2px solid grey;*/
+  border-radius: 4px;
+  padding: 20px;
+  /* width: 300px; */
+  color: white;
+  font-weight: bold;
+  background-color: #1b6ffa;
+  /*box-shadow: 0 3px 6px rgb(12, 12, 12);*/
+}
+.Stopwatch.lunch{
+  background-color: #ffc107;
+}
+.Stopwatch.break {
+  background-color: #63c2de;
+}
+.Countdown {
+  padding-top: 10px;
+}
+
+.Countdown-header,
+.Stopwatch-header {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.timer {
+  display: inline-block;
+  padding: 3px 16px;
+  font-size: 25px;
+}
+
+small {
+  font-size: 12px;
+}
+
+button {
+  background-color: rgb(47, 53, 58);
+  border: solid 1px transparent;
+  border-radius: 4px;
+  padding: 10px 20px;
+  color: #ffffff;
+  font-size: 16px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #106ba3;
+}
+.Stopwatch button {
+  padding: 0 15px;
+  font-size: 20px;
+}
+.Stopwatch-display {
+  font-size: 45px;
+}
+.Stopwatch-text {
+}
+.Countdown-display {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.Countdown-display button {
+  margin: 0 15px;
+  border: solid 1px transparent;
+  border-radius: 2px;
+  padding: 4px 16px;
+  color: #ffffff;
+
+  font-size: 16px;
+}
+.Countdown-display button:hover {
+  background-color: #106ba3;
+}
+.Countdown-label {
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.Countdown-time {
+  font-size: 36px;
+  margin: 5px 0;
+}
+
+
+blockquote {
+  font-weight: 800;
+  font-style: italic;
+  color: #e91e63;
+  padding: 30px 0;
+  width: 100%;
+  max-width: 500px;
+  align-self: center;
+  border-top: solid 4px #e91e63;
+  box-shadow: 0 12px 35px -11px rgba(0,0,0,0.4);
+  text-align: center;
+  border-radius: 4px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+blockquote.thought{
+  color: #1b6ffa;
+  border-top: solid 4px #1b6ffa;
+}
+
+blockquote small{
+  font-size: 1.7rem;
+  color: #336699;
+  position: relative;
+  z-index: 20;
+}
+
+blockquote small:before{
+  content: "\2014 \0020";
+  width: 5px;
+}
+
+.box {
+  background: #8080802b;
+  padding: 11px;
+}
+
+.report-body {
+  max-height: 200px;
+  overflow: auto;
+}

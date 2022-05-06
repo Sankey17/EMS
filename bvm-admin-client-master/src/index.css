@@ -1,0 +1,74 @@
+.padding {
+  padding-right: 800px;
+}
+
+.psss {
+  margin-left: 860px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.invalid {
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 80%;
+  color: #f86c6b;
+}
+
+.respadd {
+  margin-top: 150px;
+
+}
+
+.padd {
+  margin: 35px 0 1em
+}
+
+.padd2 {
+  margin: 0px auto 3em
+}
+
+.activeCol {
+  background: #c8ced3;
+}
+
+.cusPie {
+  margin: 20px -20px 0px 30px;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.cuscol{
+  padding-top: 24px;
+  padding-left: 23px;
+  padding-right: 23px;
+  padding-bottom: 24px
+}
+.cus-av{
+  height: 85px;
+  margin-left: 32%;
+  width: 85px;
+}
+
+.info-box__shadow:hover {
+  box-shadow: 0 20px 60px 0 rgba(0,0,0,.4);
+  -webkit-transform: translate(0,-10px);
+  transform: translate(0,-10px);
+}
+
+[class*=info-box__shadow]{
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.modal-body {
+  max-height: 500px;
+  overflow-y: auto;
+}

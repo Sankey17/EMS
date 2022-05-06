@@ -1,0 +1,7 @@
+PLATFORM_DB_URL=mongodb+srv://Sankey:Sanket@cluster0.xkunx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+PLATFORM_NODE_ENV=development
+PLATFORM_JWTSECRET=thisisthedevenv
+PLATFORM_USERNAME=""
+PLATFORM_PASSWORD=""
+MAILER_EMAIL_ID=
+MAILER_PASSWORD =

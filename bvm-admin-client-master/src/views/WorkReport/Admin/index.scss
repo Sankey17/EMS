@@ -1,0 +1,35 @@
+th,td{
+  white-space: nowrap;
+}
+.ant-table-body{
+  overflow-y: auto;
+}
+
+td{
+  text-align: center;
+  vertical-align: middle;
+}
+
+.fullDay{
+  color: #13852e;
+  margin: inherit;
+}
+
+.search{
+  padding: 4px 10px 6px 10px;
+  font-size: 1rem;
+}
+
+.form-row{
+  align-items: flex-end;
+}
+
+.halfDay{
+  color: #b4cd46;
+  margin: inherit;
+
+}
+
+.absent{
+  color: #ff453a;
+}

@@ -1,0 +1,7 @@
+PLATFORM_DB_URL=mongodb+srv://caller_theme:callerTheme@cluster0-pikta.mongodb.net/bvmadmin?retryWrites=true&w=majority
+PLATFORM_NODE_ENV=development
+PLATFORM_JWTSECRET=thisisthedevenv
+PLATFORM_USERNAME=""
+PLATFORM_PASSWORD=""
+MAILER_EMAIL_ID=
+MAILER_PASSWORD =
